@@ -1,0 +1,321 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.info__container {
+    position: relative;
+    max-width: 1360px;
+    width: 100%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.info__container .text__h2 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 714px;
+}
+
+.info__container h2 {
+    width: 100%;
+}
+
+.info__container .info__text {
+    display: flex;
+    gap: 0px;
+    margin-top: 115px;
+    justify-content: center;
+}
+
+.info__container .info__text .card {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    text-align: left;
+    gap: 10px;
+}
+
+.info__container .info__text .card p {
+    color: #282B22;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 27px */
+}
+
+.info__container .info__text .card img {
+    width: 18px;
+    height: 18px;
+}
+
+.info__container .imgs .left-top {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.info__container .imgs .right-bottom {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.section__one h2 {
+    color: #282B22;
+    text-align: center;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    /* 57.5px */
+    text-transform: uppercase;
+}
+
+.section__one .info {
+    display: flex;
+    margin-top: 80px;
+}
+
+.section__one .info .number .card {
+    width: 570px;
+    height: 174px;
+    padding: 50px;
+    border-top: 1px solid #282B22;
+    border-right: 1px solid #282B22;
+}
+
+.section__one .info .text .card {
+    border-top: 1px solid #282B22;
+    max-width: 580px;
+    width: 100%;
+    max-height: 174px;
+    height: 100%;
+    padding: 50px 40px;
+}
+
+.section__one .info .text .card h3 {
+    margin-bottom: 10px;
+    color: #282B22;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    /* 41.6px */
+}
+
+.section__one .info .text .card p {
+    color: #282B22;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+    /* 21.6px */
+    opacity: 0.8;
+}
+.containerr
+{
+    justify-content: center;
+}
+
+.log__in {
+    display: flex;
+    max-width: 1600px;
+    width: 100%;
+    margin: 140px 0px;
+}
+
+.log__in .inputs {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 696px;
+    background-color: #3D4A39;
+    padding-left: 200px;
+}
+
+.log__in .inputs h2 {
+    max-width: 400px;
+    padding-top: 100px;
+    color: white;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    /* 57.5px */
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.log__in .inputs p {
+    max-width: 300px;
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%;
+    /* 23.2px */
+    opacity: 0.8;
+}
+
+.log__in .inputs label {
+    display: block;
+}
+
+.log__in .inputs label input:focus {
+    outline: none;
+}
+
+.log__in .inputs label input {
+    width: 300px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #283025;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 0px;
+}
+.log__in .inputs button
+{
+    width: 300px;
+    padding: 22px 56px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    background: #AE7B3C;
+    box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
+    border: none;
+    margin-top: 22px;
+    color:  #FFF;
+    cursor: pointer;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 16px */
+}
+.log__in .inputs label p
+{
+    color:  #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 15.6px */
+    margin-top: 26px;
+}
+
+.log__in .img
+{   
+
+}
+
+
+
+
+
+@media screen and (max-width:1000px) {
+    .info__container .imgs {
+        display: none;
+    }
+
+    .info__container .info__text {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .section__one .info .number .card {
+        width: 453px;
+        height: 122px;
+    }
+
+    .section__one .info .text .card {
+        width: 453px;
+        height: 122px;
+        padding: 10px 10px;
+    }
+    
+    
+    .log__in .inputs
+    {
+        padding-left: 20px;
+        width: 500px;
+    }
+    .log__in  .img img
+    {
+        width: 500px;
+        height: 696px;
+
+    }
+}
+
+@media screen and (max-width:640px) {
+    .section__one .info .number .card {
+        width: 272px;
+        height: 122px;
+    }
+
+    .section__one .info .text .card {
+        width: 272px;
+        height: 122px;
+        padding: 3px 3px;
+    }
+
+    .section__one .info .text .card h3 {
+        font-size: 28px;
+    }
+    .log__in .inputs
+    {
+        padding-left: 10px;
+        width: 320px;
+    }
+    .log__in .inputs h2
+    {
+        font-size: 36px;
+    }
+    .log__in  .img img
+    {
+        width: 320px;
+        height: 696px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .section__one .info .number .card {
+        width: 40px;
+        height: 122px;
+        padding: 10px 10px;
+        border-right: none;
+    }
+
+    .section__one .info .text .card {
+        width: 272px;
+        height: 122px;
+        padding: 3px 3px;
+    }
+
+    .section__one .info .text .card h3 {
+        font-size: 20px;
+    }
+
+    .log__in
+    {
+        display: block;
+    }
+    .log__in .img img
+    {
+        width: 320px;
+        height: 360px;
+    }
+}
